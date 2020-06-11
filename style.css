@@ -118,58 +118,6 @@ section{
 	overflow:hidden;
 }
 
-.fun-section-a1{
-	float:left;
-	width:50%;
-	height:100%;
-	
-}
-
-.fun-section-a2{
-	float:right;
-	width:50%;
-	height:100%;
-}
-
-.fun-section-1{
-	background-color: #b4b4b4;
-	height: 100%;
-}
-
-.fun-section-2{
-	height:100%;
-	background: #cccccc url("images/calendar-outline.svg") no-repeat center;
-	opacity:0.3;
-	background-size: 30%;
-}
-
-.fun-section-3{
-	background-color: #b4b4b4;
-	height: 100%;
-	
-}
-
-.fun-section-4{
-	
-	height:100%;
-	background: #cccccc url("images/calendar-outline.svg") no-repeat center;
-	opacity:0.3;
-	background-size: 30%;
-}
-
-.section-box{
-	width:50%;
-	height: 200px;
-	padding-left: 25%;
-	padding-right: 25%;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-inner-box{
-	height: 50%;
-	
-}
 
 ul{
 	overflow:hidden;
@@ -181,6 +129,48 @@ a {
 }
 
 /***********************************************************************
+ *  Flex FUN SECTION
+ **********************************************************************/
+ 
+ .section-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-box > div {
+  width: 25%;
+  height:100%;
+  margin: 0px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 60px;
+  vertical-align: middle;
+}
+
+.section-box > div {
+  width: 25%;
+  height:100%;
+  margin: 0px;
+  text-align: center;
+  line-height: 3.5em;
+  font-size: 2em;
+  vertical-align: middle;
+}
+
+.section-box > div > .smallFun{
+  line-height: 10px;
+  font-size: 10px;
+}
+
+.fun-section-2, .fun-section-4{
+	background-color: #aaaaaa;
+}
+
+.fun-section-1, .fun-section-3{
+  background-color: #f1f1f1;
+}
+
+/***********************************************************************
  *  Footer
  **********************************************************************/
 footer {
@@ -188,5 +178,3 @@ footer {
     background-color: #aaaaaa;
     width: 100%;
 }
-
-
