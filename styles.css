@@ -1,0 +1,18 @@
+html { background-color: #323B4F; 
+		font-family: "Comic Sans MS", "Comic Sans", cursive;} 
+
+h2 { color: #E6CC7B;   }
+
+h1 { color: #F79781 }
+
+th { color: #D9DE7E; 
+	  font-size:22px;	}
+
+tr { color: #85CCC0; 
+font-family:courier;
+font-size:16px;
+}
+
+p { color: #E0E0E0; }
+
+table {padding-bottom: 20px;}
